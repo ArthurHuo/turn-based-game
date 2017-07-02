@@ -6,8 +6,6 @@ public class LevelUp {
 
 	public void LevelUpCharacter(){
 		//check to see if current xp > than required xp
-		
-		
 		if (GameInformation.CurrentXP > GameInformation.RequiredXP) {
 			GameInformation.CurrentXP -= GameInformation.RequiredXP;
 		} else {
